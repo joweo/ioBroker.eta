@@ -1,0 +1,77 @@
+{
+    "common": {
+        "name": "eta",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "ETA Pelletheizung",
+        "titleLang": {
+            "en": "ETA Pelletheizung",
+            "de": "ETA Pelletheizung",
+            "ru": "ETA Pelletheizung",
+            "pt": "ETA Pelletheizung",
+            "nl": "ETA Pelletheizung",
+            "fr": "ETA Pelletheizung",
+            "it": "ETA Pelletheizung",
+            "es": "ETA Pelletheizung",
+            "pl": "ETA Pelletheizung",
+            "zh-cn": "预计到达时间"
+        },
+        "desc": {
+            "en": "Lädt Werte eines ETA Pelletkessels",
+            "de": "Lädt Werte eines ETA Pelletkessels",
+            "ru": "Lädt Werte eines ETA Pelletkessels",
+            "pt": "Lädt Werte eines ETA Pelletkessels",
+            "nl": "Lädt Werte eines ETA Pelletkessels",
+            "fr": "Lädt Werte eines ETA Pelletkessels",
+            "it": "Lädt Werte eines ETA Pelletkessels",
+            "es": "Lädt Werte eines ETA Pelletkessels",
+            "pl": "Lädt Werte eines ETA Pelletkessels",
+            "zh-cn": "LädtWerte eines ETA药丸"
+        },
+        "authors": [
+            "joweo <johanneswezel@gmail.com>"
+        ],
+        "keywords": [
+            "eta",
+            "pu",
+            "pellet",
+            "heizung"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "eta.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/joweo/ioBroker.eta/master/admin/eta.png",
+        "readme": "https://github.com/joweo/ioBroker.eta/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "communication",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
