@@ -7,6 +7,9 @@
 // The adapter-core module gives you access to the core ioBroker functions
 // you need to create an adapter
 const utils = require("@iobroker/adapter-core");
+const http = require('http');
+const parser = require('fast-xml-parser');
+const RestClient = require('node-rest-client').Client;
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
